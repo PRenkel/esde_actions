@@ -3,6 +3,7 @@ name: MoSCoW Prioritization
 on:
   pull_request_target:
     types: [ labeled, opened, unlabeled, reopened ]
+  workflow_dispatch:  
 
 permissions:
   contents: read
